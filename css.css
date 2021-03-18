@@ -1,0 +1,87 @@
+@font-face {
+  font-family: Goudy;
+  src: url("font/GoudyTrajan-Regular-trial.otf");
+}
+@font-face {
+  font-family: Bionicle;
+  src: url("font/Bionicle-Regular.ttf");
+}
+
+body {
+  background-image: url("images/Kolhii_Stadium.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #1b1111;
+  font-family: Goudy;
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  color: rgb(201, 182, 77);
+  font-size: 3rem;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+.btn {
+    margin-top: 3%;
+  background: #f16464;
+  background-image: -webkit-linear-gradient(top, #f16464, #e92640);
+  background-image: -moz-linear-gradient(top, #f16464, #e92640);
+  background-image: -ms-linear-gradient(top, #f16464, #e92640);
+  background-image: -o-linear-gradient(top, #f16464, #e92640);
+  background-image: -webkit-gradient(to bottom, #f16464, #e92640);
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  border: none;
+  color: #f9fafb;
+  font-family: Brush Script MT;
+  font-size: 1.5rem;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #f70f25;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.title {
+  background-color: black;
+  width: 70%;
+  margin: auto;
+}
+
+.footer {
+  font-family: Bionicle;
+  font-size: 3rem;
+  margin: 10%;
+}
+
+.answer {
+  margin-top: 5%;
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.bionicle {
+ font-weight: bold;
+ color:black;
+ text-decoration: underline;
+}
